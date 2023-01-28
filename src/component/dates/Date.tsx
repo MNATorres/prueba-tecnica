@@ -1,7 +1,8 @@
 import React from 'react';
-import Age from './Age';
+import ButtonDate from './ButtonDate';
 import { DataPicker } from './DatePicker';
-import Month from './Month';
+import SelectAge from './SelectAge';
+import { SelectMonth} from './SelectMonth';
 
 export default function Date(){
     return(
@@ -15,8 +16,9 @@ export default function Date(){
       >
         <DataPicker titleDate="Fecha desde" />
         <DataPicker titleDate="Fecha hasta" />
-        <Month />
-        <Age />
+        <SelectMonth />
+        <SelectAge />
+        <ButtonDate />
       </div>
     )
 }
