@@ -1,22 +1,28 @@
   table {
-    border: 1px solid lightgray;
+    
   }
   
   tbody {
     border-bottom: 1px solid lightgray;
+    
   }
   
   th {
-    border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    padding: 2px 4px;
+    
+    padding: 5px 6px;
+    color: white;
+    background-color: #7a7979;
+    font-size: 10px;
+    
   }
   
   tfoot {
     color: gray;
+
   }
   
   tfoot th {
     font-weight: normal;
+    
   }
   
